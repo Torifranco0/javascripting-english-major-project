@@ -17,9 +17,9 @@ if ( userInput === "burrito" ) {
 */
 let makeABurrito;
 makeABurrito = function(beansVariable) {
-let beanResponse;
+let beansResponse;
 beansResponse = "You ordered " + beansVariable + "beans. Good choice!";
-$(#response").html(beanResponse);
+$(#response").html(beansResponse);
 };
 let blackBeans;
 blackBeans = "black";
