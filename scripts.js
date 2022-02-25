@@ -18,13 +18,9 @@ if ( userInput === "burrito" ) {
 let makeABurrito;
 makeABurrito = function(beansVariable) {
 let beanResponse;
-prepareTortilla();
-addBeans();
-addOnionsandCilantro();
 beansResponse = "You ordered " + beansVariable + "beans. Good choice!";
 $(#response").html(beanResponse);
-rollUpTortilla();
-}
+};
 let blackBeans;
 blackBeans = "black";
 makeABurrito(blackBeans);
