@@ -15,6 +15,7 @@ if ( userInput === "burrito" ) {
   $("#response").html("Don’t you want a burrito?");
 }
 */
+
 let makeABurrito;
 makeABurrito = function(beansVariable) {
 let beansResponse;
