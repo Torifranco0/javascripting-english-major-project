@@ -25,6 +25,7 @@ $(#response").html(beansResponse);
 let blackBeans;
 blackBeans = "black";
 makeABurrito(blackBeans);
+*/
 
 
 let arrayOfStrings, arrayOfNumbers, arrayMixed;
