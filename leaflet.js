@@ -26,9 +26,6 @@ bobstLibrary.bindPopup("This is Bobst Library.");
 let bobstCoords;
 bobstCoords = L.latLng(40.729444, -73.997222);
 firstMap.panTo(bobstCoords);
-> let eiffelTower;
-> eiffelTower = L.latLng(48.858222, 2.2945);
-> firstMap.panTo(eiffelTower);
 bobstLibrary.bindPopup("This is Bobst Library.");
 
 let circle;
