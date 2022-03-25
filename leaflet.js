@@ -9,11 +9,13 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
 tileLayer.addTo(firstMap);
 firstMap.setView([40.730833, -73.9975], 16);
 
-let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker;
+let washingtonSquarePark, washingtonSquareParkMarker, bobstLibrary, bobstLibraryMarker, argosyBookstore;
 washingtonSquarePark = L.latLng(40.730833, -73.9975);
 washingtonSquareParkMarker = L.marker(washingtonSquarePark).bindPopup("This is Washington Square Park").addTo(firstMap);
 bobstLibrary = L.latLng(40.729444, -73.997222);
 bobstLibraryMarker = L.marker(bobstLibrary).bindPopup("This is Bobst Library").addTo(firstMap);
+argosyBookstore = L.latLng(40.741895, -73.989308);
+argosyBookstoreMarker = L.marker(argosyBookstore).bindPopup("This is Argosy Bookstore").addTo(firstMap);
 
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
