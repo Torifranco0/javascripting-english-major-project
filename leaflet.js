@@ -14,17 +14,14 @@ washingtonSquarePark = L.latLng(40.730833, -73.9975);
 washingtonSquareParkMarker = L.marker(washingtonSquarePark).addTo(firstMap);
 tenThousandth = [[40.7307, -73.9976], [40.7307, -73.9974], 
                  [40.7309, -73.9974], [40.7309, -73.9976]];
-tenThousandthPolygon = L.polygon(tenThousandth, {
-                                  color: "#268bd2",
-                                  fillColor: "#fdf6e3"
-                                }
-                        ).addTo(firstMap);
+
 thousandth = [[washingtonSquarePark.lat + 0.001, washingtonSquarePark.lng + 0.001],
               [washingtonSquarePark.lat + 0.001, washingtonSquarePark.lng - 0.001],
               [washingtonSquarePark.lat - 0.001, washingtonSquarePark.lng - 0.001],
               [washingtonSquarePark.lat - 0.001, washingtonSquarePark.lng + 0.001]];
 thousandthPolyline = L.polyline(thousandth, {color: "#d33682"}
                       ).addTo(firstMap);
+
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
                                          color: "#859900",
