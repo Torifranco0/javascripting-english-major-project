@@ -8,6 +8,7 @@ L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
     });
 
 
+
 let washingtonSquarePark, washingtonSquareParkMarker;
 let tenThousandth, tenThousandthPolygon, thousandth, thousandthPolyline;
 washingtonSquarePark = L.latLng(40.730833, -73.9975);
@@ -19,14 +20,7 @@ tenThousandthPolygon = L.polygon(tenThousandth, {
                                   fillColor: "#fdf6e3"
                                 }
                         ).addTo(firstMap);
-let bobstLibrary;
-bobstLibrary = L.marker([40.729444, -73.997222]);
-bobstLibrary.addTo(firstMap);
-bobstLibrary.bindPopup("This is Bobst Library.");
-let bobstCoords;
-bobstCoords = L.latLng(40.729444, -73.997222);
-firstMap.panTo(bobstCoords);
-bobstLibrary.bindPopup("This is Bobst Library.");
+
 
 let circle;
 circle = L.circle(washingtonSquarePark, {radius: 100,
@@ -36,9 +30,3 @@ circle = L.circle(washingtonSquarePark, {radius: 100,
                                          fillOpacity: 0.25}
           ).addTo(firstMap);
 let circle;
-circle = L.circle(bobstLibrary, {radius: 100,
-                                         color: "#859900",
-                                         fillColor: "#cb4b16",
-                                         opacity: 0.9,
-                                         fillOpacity: 0.25}
-          ).addTo(firstMap);
