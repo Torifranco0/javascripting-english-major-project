@@ -19,7 +19,7 @@ argosyBookstoreMarker = L.marker(argosyBookstore).bindPopup("This is Argosy Book
 leftBooks = L.latLng(40.73569, -74.002872);
 leftBooksMarker = L.marker(leftBooks).bindPopup("This is Left Bookstore").addTo(firstMap);
 logosBooks = L.latLng(40.774319, -73.948303);
-logosBooks = L.marker(logodBooks).bindPopup("This is Logos Bookstore").addTo(firstMap);
+logosBooks = L.marker(logosBooks).bindPopup("This is Logos Bookstore").addTo(firstMap);
 
 
 let circle;
