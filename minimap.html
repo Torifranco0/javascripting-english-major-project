@@ -112,30 +112,30 @@ var myLayer = L.mapbox.featureLayer().addTo(map);
 
 var geoJson = [{
     type: 'Feature',
-    "geometry": { "type": "Point", "coordinates": [-6.395667, 53.983818]},
+    "geometry": { "type": "Point", "coordinates": [-73.9691772, 40.7623726]},
     "properties": {
-        'title': 'Molloy Media Archaeology',
+        'title': 'Argosy Bookstore',
         'marker-color': '#FFFFFF',
-        'marker-symbol': 'circle',
+        'marker-symbol': 'city',
         'marker-size': 'large',
 
         // Store the image url and caption in an array.
         'images': [
-          ['http://molloymediaarchaeology.org/images/droneabove.jpg','You are about to experience an interactive map and <a href="http://molloyenglish.org/omeka-2.4">archive</a> of the Boyne Valley in Northeastern Ireland. The map and <a href="http://molloyenglish.org/omeka-2.4">archive</a> were created in the spring of 2016 by the students of SAP 261 [Media Archaeology] in consultation with <a href="http://mapplega.com">Matt Applegate</a>, <a href="http://www.jamesncohen.com/">Jamie Cohen</a>, <a href="http://margaretdelima.com/home.html">Maraget DeLima</a>, and Destinee Day.'],          ['http://molloymediaarchaeology.org/images/dkitwide.jpg','Students completed this map and archive along with a certificate in <a href="https://www.dkit.ie/news/dkit-unveils-new-programme-certificate-cultural-landscapes-newgrange-boyne-valley">Cultural Landscapes</a> at <a href="https://www.dkit.ie/">DkIT</a>, Dundalk Institute of Technology, led by professor <a href="https://www.dkit.ie/users/dr-conor-brady">Conor Brady</a>.'],
-          ['http://molloymediaarchaeology.org/images/molloylogo.jpg', '<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Molloy Media Archaeology Map & Archive</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://molloymediaarchaeology.org/archive" property="cc:attributionName" rel="cc:attributionURL">SAP 261</a>, led by <a href="http://mapplega.com">Matt Applegate</a>, <a href="http://www.jamesncohen.com/">Jamie Cohen</a>, & <a href="http://margaretdelima.com/home.html">Margaret DeLima</a>, is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. <br><br>Our map is powered by <a href="http://mapbox.com">Mapbox</a> and our archive is powered by <a href="http://omeka.org">Omeka!</a>']
+          ['http://tori.molloynewmedia.org/images/ArgosySign.jpg','This was my favorite store from this trip! It is one of the most well known book shops in NYC!'],
+          ['http://tori.molloynewmedia.org/images/ArgosyStore.jpg', 'This is the inside of the store! It looks like something out of a movie!']
         ]
     }
 }, {
     type: 'Feature',
-    "geometry": { "type": "Point", "coordinates": [-5.930120, 54.597285]},
+    "geometry": { "type": "Point", "coordinates": [-73.9691772, 40.7623726]},
     "properties": {
-        'title': 'Belfast Peace Lines',
+        'title': 'Shakespeare & Co',
         'marker-color': '#FFFFFF',
         'marker-symbol': 'city',
         'marker-size': 'large',
         'images': [
-          ['https://drive.google.com/uc?id=1pyrWXWSgR-1LxtI9cYtDY_JbOV4Pjm7Z','The Belfast Peace Lines were constructed in 1969 and divided Catholic communities from Protestant ones.'],
-          ['http://molloymediaarchaeology.org/images/peacewall2.jpg','Molloy students visited the peace lines on May 28, 2016.'],
+          ['https://www.tori.molloynewmedia.org/images/ShakespeareFront.jpg','This is the front of the Shakespeare & Co Bookstore. Home to rare and used books!'],
+          ['http://www.tori.molloynewmedia.org/images/ShakespeareBooks.jpg','This is a tall bookshelf in the middle of the quiet store. '],
           ['http://molloymediaarchaeology.org/images/peacewall3.jpg','Students wrote their names and messages on the walls, leaving a mark on the structure. Writing on the walls is a common and important act of memorialization.']
         ]
     }
@@ -143,13 +143,13 @@ var geoJson = [{
     type: 'Feature',
     "geometry": { "type": "Point", "coordinates": [-73.6291694641113, 40.6866260456405]},
     "properties": {
-        'title': 'Molloy College',
-        'marker-color': '#a01f2c',
-        'marker-symbol': 'college',
-        'marker-size': 'medium',
+        'title': 'The Book Cellar',
+        'marker-color': '#FFFFFF',
+        'marker-symbol': 'city',
+        'marker-size': 'large',
         'images': [
-          ['https://upload.wikimedia.org/wikipedia/en/6/61/MolloyCollege_Logo.png','This is where I teach Coding for the Humanities!'],
-          ['https://www.molloy.edu/Images/NMD_Acad_2018.jpg','I love New Media!'],
+         ['https://www.tori.molloynewmedia.org/images/BookCellar1.jpg','The Book Cellar is in the basement of the Webster Library! It is run by volunteers!'],
+        ['https://www.tori.molloynewmedia.org/images/BookCellar2.jpg','New Yorkers love to read!'],
           ['https://pbs.twimg.com/media/D1eev5CXQAYm_7x.jpg','Don\'t you?']
         ]
     }
@@ -157,13 +157,14 @@ var geoJson = [{
     type: 'Feature',
     "geometry": { "type": "Point", "coordinates": [-6.2603, 53.349805]},
     "properties": {
-        'title': 'Dublin, Ireland',
+        'title': 'Assouline Bookstore',
         'marker-color': '#FFFFFF',
         'marker-symbol': 'city',
         'marker-size': 'large',
         'images': [
-          ['http://molloymediaarchaeology.org/images/dublintown.jpg','Students spent Sunday, May 29 in Dublin, Ireland.'],
-          ['http://molloymediaarchaeology.org/images/jervis.jpg','<iframe width="280" height="195" src="https://www.youtube.com/embed/O31ciXE9tns" frameborder="0" allowfullscreen></iframe>','Students documented what they saw and experienced.']
+         ['http://www.tori.molloynewmedia.org/images/Assouline1.jpg','Assouline is a designer bookstore. It houses books that are as expensive as $1000!'],
+         ['http://www.tori.molloynewmedia.org/images/AssoulineStore2.jpg','The store is tiny, but the books are HUGE!'],
+         ['http://molloymediaarchaeology.org/images/jervis.jpg','<iframe width="280" height="195" src="https://www.youtube.com/embed/O31ciXE9tns" frameborder="0" allowfullscreen></iframe>','Students documented what they saw and experienced.']
         ]
     }
 }, {
@@ -171,9 +172,9 @@ var geoJson = [{
     "geometry": { "type": "Point", "coordinates": [-6.42425, 53.72220]},
     "properties": {
         'title': 'The Memory Sculpture',
-        'marker-color': '#FFD700',
-        'marker-symbol': 'monument',
-        'marker-size': 'medium',
+        'marker-color': '#FFFFFF',
+        'marker-symbol': 'city',
+        'marker-size': 'large',
         'images': [
           ['http://molloymediaarchaeology.org/images/adriana_memory2.jpg','The Memory Sculpture is another piece kept within the Walled Gardens.'],
           ['http://molloymediaarchaeology.org/images/grant_pole2.jpg','The sculpture is a remnant of another tree present at the Battle of the Boyne.'],
